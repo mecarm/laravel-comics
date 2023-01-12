@@ -233,6 +233,8 @@ Route::get('/', function () {
     return view('welcome', compact('fumetti'));
 });
 
-
+Route::get('/prodotto', function () {
+    return view('prodotto');
+});
 
 

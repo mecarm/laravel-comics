@@ -16,7 +16,7 @@
     </header>
     <main>
         @include('components.jumbotron')
-        @include('components.comics')
+        @yield('fumetti')
     </main>
 
     <script src="{{asset('js/app.js')}}"></script>

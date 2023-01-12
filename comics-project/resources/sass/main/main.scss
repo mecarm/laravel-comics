@@ -5,21 +5,20 @@
     height: 400px;
     position: relative;
 }
-main{
+.black{
     background-color: #1C1C1C;
-    color: white;
 }
 
 .cards{
     display: flex;
     flex-wrap: wrap;
     width: 80%;
-    margin: 5px auto;
+    margin: 0px auto;
 }
 
 .fumetto{
     width: calc(100% / 6);
-    padding: 10px;
+    padding: 20px;
     cursor: pointer;
 }
 
@@ -28,4 +27,13 @@ main{
     width: 100%;
     object-fit: cover;
     object-position: top;
+}
+
+.fumetto h5 a{
+    color: white;
+    text-decoration: none;
+}
+
+.fumetto h5 a:hover{
+    color: rgb(0, 162, 255);
 }

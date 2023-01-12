@@ -3,7 +3,7 @@
         @foreach ($fumetti as $elem)
             <div class="fumetto">
                 <img src="{{$elem['thumb']}}" alt="fumetto">
-                <h5>{{$elem['title']}}</h5>
+                <h5><a href="/prodotto">{{$elem['title']}}</a></h5>
             </div>
         @endforeach
     </div>
