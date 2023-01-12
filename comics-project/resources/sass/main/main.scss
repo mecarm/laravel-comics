@@ -1,0 +1,21 @@
+.jumbotron {
+    background-image: url('../../../public/img/jumbotron.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    position: relative;
+}
+main{
+    background-color: #1C1C1C;
+}
+
+  .cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 5px auto;
+  }
+
+  .fumetto{
+    padding: 30px;
+  }

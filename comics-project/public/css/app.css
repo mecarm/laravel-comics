@@ -1,11 +1,11 @@
 ul{
     display: flex;
+    align-items: center;
 }
 
 li{
     list-style: none;
-    margin: 10px;
-    padding: 20px 0;
+    margin: 0 10px;
     cursor: pointer;
 }
 
@@ -15,5 +15,25 @@ header{
     align-items: center;
     width: 80%;
     margin: 0 auto;
+}.jumbotron {
+    background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    position: relative;
 }
+main{
+    background-color: #1C1C1C;
+}
+
+  .cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 5px auto;
+  }
+
+  .fumetto{
+    padding: 30px;
+  }
 

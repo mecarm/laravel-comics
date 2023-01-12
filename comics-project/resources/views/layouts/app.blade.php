@@ -15,7 +15,8 @@
         @include('components.menu')
     </header>
     <main>
-        @yield('main-content')
+        @include('components.jumbotron')
+        @include('components.comics')
     </main>
 
     <script src="{{asset('js/app.js')}}"></script>
