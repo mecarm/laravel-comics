@@ -60,6 +60,33 @@ header {
   color: rgb(0, 162, 255);
 }
 
+.card-comic {
+  width: 100%;
+  margin: 0 auto;
+  /* center the card horizontally */
+}
+
+.cards-img-top {
+  width: 10%;
+  height: 10%;
+  margin: 10px;
+}
+
+.cards-body {
+  padding: 20px;
+}
+
+.cards-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.cards-text {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
 .container-blu {
   display: flex;
   justify-content: center;
