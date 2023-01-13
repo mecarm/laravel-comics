@@ -17,6 +17,7 @@
     <main>
         @include('components.jumbotron')
         @yield('fumetti')
+        @yield('main-content')
     </main>
     <footer>
         @include('components.footer')
