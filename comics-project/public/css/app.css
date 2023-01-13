@@ -1,59 +1,85 @@
-ul{
-    display: flex;
-    align-items: center;
+ul {
+  display: flex;
+  align-items: center;
 }
 
-li{
-    list-style: none;
-    margin: 0 10px;
-    cursor: pointer;
+li {
+  list-style: none;
+  margin: 0 10px;
+  cursor: pointer;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-    margin: 0 auto;
-}.jumbotron {
-    background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 400px;
-    position: relative;
-}
-.black{
-    background-color: #1C1C1C;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
 }
 
-.cards{
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
-    margin: 0px auto;
+.jumbotron {
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  position: relative;
 }
 
-.fumetto{
-    width: calc(100% / 6);
-    padding: 20px;
-    cursor: pointer;
+.black {
+  background-color: #1C1C1C;
 }
 
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0px auto;
+}
+
+.fumetto {
+  width: 16.6666666667%;
+  padding: 20px;
+  cursor: pointer;
+}
 
 .fumetto img {
-    width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    -o-object-position: top;
-       object-position: top;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
 }
 
-.fumetto h5 a{
-    color: white;
-    text-decoration: none;
+.fumetto h5 a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.fumetto h5 a:hover{
-    color: rgb(0, 162, 255);
+.fumetto h5 a:hover {
+  color: rgb(0, 162, 255);
+}
+
+.container-blu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0082F9;
+  padding: 50px 0;
+}
+
+.container-blu > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 15px;
+  font-size: 0.8rem;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-blu > div > img {
+  height: 50px;
+  max-width: 50px;
 }
 

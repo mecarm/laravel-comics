@@ -1,7 +1,7 @@
 <header>
-
-    <img src="{{ asset('img/dc-logo.png') }}" alt="DC logo">
-    
+    <a href="/">
+      <img src="{{ asset('img/dc-logo.png') }}" alt="DC logo">
+    </a>
     <div> 
       <ul>
         <li>CHARACTERS</li>

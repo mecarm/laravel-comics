@@ -1,0 +1,22 @@
+.container-blu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0082F9;
+    padding: 50px 0;
+}
+
+.container-blu>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15px;
+    font-size: 0.8rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-blu > div > img{
+    height: 50px;
+    max-width: 50px;
+}
