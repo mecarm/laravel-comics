@@ -109,6 +109,8 @@ header{
 .footer{
     background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
     color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .list {
@@ -143,5 +145,40 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.social{
+    background: rgb(44, 44, 44);
+    padding: 30px;
+}
+
+.social div:first-child{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.follow div:first-child {
+    margin-right: 5px;
+    color: #0082F9;
+    width: 100px;
+}
+
+.follow div:last-child > img{
+    margin: 0 5px;
+}
+
+.follow, .icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    padding: 10px;
+    border: 2px solid #0082F9;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
 }
 
