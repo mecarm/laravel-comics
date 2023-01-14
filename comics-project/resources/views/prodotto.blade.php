@@ -57,7 +57,7 @@
             <p>{{$prodotto_singolo['price']}}</p>
           </div>
           <div class="inside-cont">
-            <h5>On Sale Date:: </h5>
+            <h5>On Sale Date: </h5>
             <p>{{$prodotto_singolo['sale_date']}}</p>
           </div>
         </div>
