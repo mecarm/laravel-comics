@@ -25,4 +25,43 @@
         </div>
       </div>
 
+      <section class="grey-section">
+        <div class="center-section">
+        <div class="left-container">
+          <h2>Talent</h2>
+          <div class="inside-cont">
+            <h5>Art by:</h5>
+            <p>
+              @foreach ($prodotto_singolo['artists'] as $elem)
+             {{ $elem }},
+              @endforeach
+            </p>
+          </div>
+          <div class="inside-cont">
+            <h5>Written by:</h5>
+            <p>
+              @foreach ($prodotto_singolo['writers'] as $elem)
+             {{ $elem }},
+              @endforeach
+            </p>
+          </div>
+        </div>
+        <div class="right-container">
+          <h2>Specs</h2>
+          <div class="inside-cont">
+            <h5>Series: </h5>
+            <p>{{$prodotto_singolo['series']}}</p>
+          </div>
+          <div class="inside-cont">
+            <h5>U.S. Price: </h5>
+            <p>{{$prodotto_singolo['price']}}</p>
+          </div>
+          <div class="inside-cont">
+            <h5>On Sale Date:: </h5>
+            <p>{{$prodotto_singolo['sale_date']}}</p>
+          </div>
+        </div>
+      </div>
+      </section>
+
 @endsection
