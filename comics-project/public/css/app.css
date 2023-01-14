@@ -81,7 +81,7 @@ header {
 
 .cards-body {
   width: 60%;
-  margin: 20px auto;
+  margin: 70px auto;
 }
 
 .cards-title {
@@ -96,6 +96,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 10px;
+  border-bottom: 1px solid rgb(3, 76, 3);
 }
 
 .price {
@@ -117,8 +118,8 @@ header {
 }
 
 .line {
-  border-left: 2px solid white;
-  height: 1em;
+  border-left: 1px solid rgb(3, 76, 3);
+  height: 2em;
   margin: 0 0.5em;
 }
 
