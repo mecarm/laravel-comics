@@ -4,13 +4,15 @@
 
 @section('main-content')
 
+    {{-- barra blu sotto jumbotron con immagine fumetto all'interno --}}
     <div class="blu-bar">
       <img src="{{ $prodotto_singolo['thumb']}}" alt="Comic Image" class="cards-img-top">
     </div>
-
+    {{-- card con titolo e descrizione --}}
     <div class="card-comic">
         <div class="cards-body">
           <h5 class="cards-title">{{ $prodotto_singolo['title'] }}</h5>
+          {{-- barra verde con prezzo --}}
           <div class="green-bar">
             <div class="price">
               <span>U.S. Price: {{ $prodotto_singolo['price'] }}</span>
@@ -24,7 +26,7 @@
           <p class="cards-text">{{ $prodotto_singolo['description'] }}</p>
         </div>
       </div>
-
+      {{-- Sezione grigia con informazioni fumetto generate dinamicamente  --}}
       <section class="grey-section">
         <div class="center-section">
         <div class="left-container">
