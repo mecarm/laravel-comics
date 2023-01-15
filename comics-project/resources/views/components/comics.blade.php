@@ -1,3 +1,4 @@
+{{-- Generazione fumetti pagina welcome --}}
 <div class="black">
     <div class="cards">
         @foreach ($fumetti as $id => $elem)
